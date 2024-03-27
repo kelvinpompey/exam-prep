@@ -15,10 +15,10 @@ import { replaceLocalhost } from './localhost.native'
  * A set of typesafe hooks for consuming your API.
  */
 export const trpc = createTRPCReact<AppRouter>()
-
 const getApiUrl = () => {
   const apiUrl = `${process.env.EXPO_PUBLIC_API_URL}`
-  return replaceLocalhost(apiUrl)
+  const host = replaceLocalhost(apiUrl)
+  return host
 }
 
 export const TRPCProvider: React.FC<{

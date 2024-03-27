@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "t4-app",
+    "name": "Exam Prep",
     "slug": "t4-app",
-    "scheme": "t4",
+    "scheme": "exam-prep",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,21 +17,21 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.t4.app"
+      "bundleIdentifier": "com.safyah.examprep"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.t4.app"
+      "package": "com.safyah.examprep"
     },
     "extra": {
       "eas": {
-        "projectId": "85fc6ccd-0ce1-4e4d-804c-b15df989f97e"
+        "projectId": "be2c6c8b-b36f-4cc8-8111-6f82f2049140"
       }
     },
-    "owner": "timothymiller",
+    "owner": "silkodyssey",
     "plugins": ["expo-router"],
     "experiments": {
       "tsconfigPaths": true,

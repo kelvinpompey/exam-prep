@@ -2,9 +2,9 @@ name = "examprep"
 compatibility_date = "2023-10-30"
 send_metrics = false
 node_compat = true
-route = "kelvin-pompey.workers.dev/*"
+route = "examprep.kelvin-pompey.workers.dev"
 workers_dev = false
 
 [env.preview]
-name = "kelvin-pompey.workers.dev"
+name = "examprep-dev.kelvin-pompey.workers.dev"
 workers_dev = true
