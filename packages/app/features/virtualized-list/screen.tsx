@@ -9,7 +9,7 @@ import { match } from 'ts-pattern'
 export const VirtualizedListScreen = (): React.ReactNode => {
   const carsList = trpc.car.all.useQuery()
 
-  console.log("car list failure reason ", carsList.failureReason)
+  console.log('car list failure reason ', carsList.failureReason)
   const carsListLayout = match(carsList)
     .with(error, () => <CarListError message={carsList.failureReason?.message} />)
     .with(loading, () => (
